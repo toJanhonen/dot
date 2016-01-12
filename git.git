@@ -1,0 +1,96 @@
+[user]
+  name = Thomas Janhonen
+  email = thomas.janhonen@frantic.com
+
+
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+
+  ignorecase = false
+
+
+
+[alias]
+  ### :: GENERAL
+  s = status
+  short = status --short --branch
+  a = add
+  all = add .
+
+  ### :: LOG
+  l = log --oneline --graph --decorate
+
+  ### :: WHAT
+  d = diff --ignore-blank-lines --color-words
+
+  ### :: BRANCH
+  co = checkout
+
+    ### :: :: WHICH
+    mine = checkout --ours
+    not = checkout --theirs
+
+    ### :: :: MAKE
+    mke = branch
+    delete = branch --delete
+
+  ### :: FETCH
+  fe = fetch
+
+  ### :: REBASE
+  re = rebase
+
+  ### :: MERGE
+  m = merge
+  mo = merge --ff-only
+  mn = merge --no-ff
+
+  ### :: RDY
+  cm = commit -m
+  pre = pull --rebase
+  po = push origin
+
+
+
+  ### careful now ...
+  rlydonotuse = !git reset --hard && git clean -f
+
+
+
+[color]
+  ui = true
+
+
+
+[color "status"]
+  added = green bold
+  changed = cyan bold
+
+  untracked = red bold
+
+
+
+[color "diff"]
+  meta = yellow bold
+
+  frag = magenta bold
+
+  old = red bold
+  new = green bold
+
+  whitespace = red reverse
+
+
+
+[color "branch"]
+  current = yellow bold
+
+  local = green bold
+  remote = cyan bold
+
+
+
+[push]
+  default = simple
