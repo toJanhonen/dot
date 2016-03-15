@@ -32,6 +32,6 @@ mac() {
 instance() {
   echo $fg[magenta]'server instance initiation'$reset_color
 
-  please launchctl unload /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
-  please launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
+  please launchctl unload /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
+  please launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx-full.plist
 }
