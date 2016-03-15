@@ -34,5 +34,9 @@
 
   "material_theme_disable_fileicons": true,
   "material_theme_small_statusbar":   true,
-  "material_theme_small_tab":         true
+  "material_theme_small_tab":         true,
+
+	"material_theme_appbar_tiel":				true,
+
+	"typescript_auto_format":						false
 }
