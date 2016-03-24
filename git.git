@@ -8,7 +8,7 @@
   editor = vim
   excludesfile = ~/.gitignore_global
 
-	templatedir = ~/.gittemplate
+  templatedir = ~/.gittemplate
 
   ignorecase = false
 
