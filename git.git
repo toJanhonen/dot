@@ -96,3 +96,6 @@
 
 [push]
   default = simple
+
+	### \o/
+	followTags = true
