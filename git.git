@@ -54,6 +54,7 @@
   pre = pull --rebase
   po = push origin
 
+	cma = commit --amend
 
 
   ### careful now ...
