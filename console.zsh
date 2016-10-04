@@ -37,6 +37,11 @@ source ~/.console/function.zsh
 
 
 
+#curl https://cdn.rawgit.com/zsh-users/antigen/v1.1.3/bin/antigen.zsh > antigen.zsh
+source ~/.anitgen.zsh
+
+
+
 #
 source ~/.z.bash
 source ~/.syntax/syntax.zsh
