@@ -20,6 +20,7 @@
   short = status --short --branch
   a = add
   all = add .
+  ai = add --interactive
 
   ### :: LOG
   l = log --oneline --graph --decorate
