@@ -38,7 +38,7 @@ source ~/.console/function.zsh
 
 
 #git clone https://github.com/zsh-users/antigen.git .antigen
-source ~/.antigen/anitgen.zsh
+source ~/.antigen/antigen.zsh
 antigen bundle soimort/translate-shell
 
 
