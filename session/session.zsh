@@ -6,8 +6,6 @@ feature=colour171
 #status
 set -g status-interval 5
 
-set -g status-utf8 on
-
 set -g status-left-length 50
 set -g status-right-length 150
 
@@ -35,6 +33,9 @@ set-option -g message-bg default
 set-option -g message-fg $active
 
 #mode
+set-window-option -g mode-bg $feature
+set-window-option -g mode-fg $inactive
+
 set-window-option -g clock-mode-colour $active
 
 #render
