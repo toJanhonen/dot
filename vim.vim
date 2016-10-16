@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+let mapleader = "\<Space>"
+
 set history=50
 
 set autoread
