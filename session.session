@@ -1,0 +1,28 @@
+set -g default-terminal "screen-256color"
+
+#ctrl a
+unbin C-b
+
+set-option -g prefix C-a
+bind-key C-a send-prefix
+
+bind r source-file ~/.tmux.conf \; display 'configuration reload complete'
+
+#window | and -
+bind | split-window -h
+bind - split-window -v
+
+#rename
+set-option -g allow-rename off
+
+#vim <3
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+#bind -r C-h select-window -t :-
+#bind -r C-l select-window -t :+
+
+#look
+source ~/.session/session.zsh
