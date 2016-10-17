@@ -43,8 +43,7 @@ session="#[fg=$feature]#S"
 
 music="#[fg=$feature]#(osascript ~/.script/music.scpt)"
 date="#[fg=$inactive]%r"
-host="#[fg=$inactive]@#h"
-
+host="#[fg=$inactive]@ruby"
 
 set -g status-left $session' '
 set -g status-right $music' '$date' '$host
