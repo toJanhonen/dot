@@ -33,8 +33,8 @@ set-option -g message-bg default
 set-option -g message-fg $active
 
 #mode
-set-window-option -g mode-bg $feature
-set-window-option -g mode-fg $inactive
+set-window-option -g mode-bg default
+set-window-option -g mode-fg $active
 
 set-window-option -g clock-mode-colour $active
 
