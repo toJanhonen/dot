@@ -9,7 +9,7 @@ set autoread
 set so=7
 set ruler
 
-set backspace=indent,eol,start
+set backspace=indent,eol
 
 set cmdheight=3
 
