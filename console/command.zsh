@@ -6,7 +6,9 @@ alias ..='cd ..'
 alias please=sudo
 
 #tmux
-alias ta='tmux attach'
+alias tma='tmux attach'
 
-alias tl='tmux ls'
+alias tmi='tmux attach -t'
+
 alias tm='tmux new-session -s'
+alias tml='tmux ls'
