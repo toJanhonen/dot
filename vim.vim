@@ -1,8 +1,8 @@
 execute pathogen#infect()
 
-let mapleader = "\<Space>"
+let mapleader = ","
 
-set history=50
+set history=700
 
 set autoread
 
@@ -25,6 +25,7 @@ set mat=5
 
 set laststatus=2
 
+set relativenumber
 set number
 
 syntax enable
