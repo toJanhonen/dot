@@ -1,6 +1,28 @@
+scriptencoding utf-8
+
 execute pathogen#infect()
 
-let mapleader = ","
+"leader
+let mapleader = "\<Space>"
+"leader map
+noremap <Leader><Leader> <C-^>
+noremap <Leader>o :only<CR>
+noremap <Leader>p :echo expand('%')<CR>
+
+noremap <Leader>q :quit<CR>
+
+"
+if exists('&belloff')
+    set belloff=all
+endif
+
+"
+if has('linebreak')
+    set linebreak
+    let &showbreak='⇥ '
+
+    set breakindent
+endif
 
 set history=700
 
@@ -28,9 +50,14 @@ set laststatus=2
 set relativenumber
 set number
 
+set highlight+=N:DiffText
+
+set cursorline
+
 syntax enable
 
 let g:solarized_termtrans=1
+let g:pad#dir='~/.note/'
 
 set background=dark
 colorscheme solarized
@@ -38,21 +65,31 @@ colorscheme solarized
 set encoding=utf8
 
 set nobackup
+set nowritebackup
 
+set noswapfile
+
+set noundofile
+
+set hidden
+
+set list
+set listchars=tab:⇥\ ,trail:∙,nbsp:␣,extends:>,precedes:<
+set scrolloff=3
+
+set expandtab
 set tabstop=2
 
 set ai
 set si
 
-
-
+"map
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-
-
+"stuff
 set guifont=Hack
 let g:airline_powerline_fonts=1
 
