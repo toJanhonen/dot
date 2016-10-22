@@ -9,8 +9,8 @@ set -g status-interval 5
 set -g status-left-length 50
 set -g status-right-length 150
 
-set-window-option -g window-status-format "#I #W"
-set-window-option -g window-status-current-format "#I #W"
+set-window-option -g window-status-format "#W"
+set-window-option -g window-status-current-format "#W"
 
 set-option -g status-bg default
 set-option -g status-fg $active
@@ -39,7 +39,7 @@ set-window-option -g mode-fg $active
 set-window-option -g clock-mode-colour $active
 
 #render
-session="#[fg=$feature]#S"
+session="#[fg=$feature]#S ⧉"
 
 music="#[fg=$feature]#(osascript ~/.script/music.scpt)"
 date="#[fg=$inactive]%r"
