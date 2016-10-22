@@ -19,6 +19,8 @@ bind - split-window -v
 #rename
 set-option -g allow-rename off
 
+set -g renumber-windows on
+
 #vim <3
 bind h select-pane -L
 bind j select-pane -D
