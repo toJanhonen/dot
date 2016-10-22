@@ -46,6 +46,13 @@ set si
 
 
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
+
 set guifont=Hack
 let g:airline_powerline_fonts=1
 
