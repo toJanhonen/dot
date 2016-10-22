@@ -56,11 +56,11 @@ set cursorline
 
 syntax enable
 
-let g:solarized_termtrans=1
+"let g:solarized_termtrans=1
 let g:pad#dir='~/.note/'
 
 set background=dark
-colorscheme solarized
+colorscheme base16-ocean
 
 set encoding=utf8
 
@@ -92,5 +92,6 @@ nnoremap <C-l> <C-w>l
 "stuff
 set guifont=Hack
 let g:airline_powerline_fonts=1
+let g:airline_skip_empty_sections=1
 
-let g:airline_theme='solarized'
+let g:airline_theme='base16_ocean'
