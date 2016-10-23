@@ -5,14 +5,14 @@ execute pathogen#infect()
 "leader
 let mapleader = "\<Space>"
 "leader map
-noremap <Leader><Leader> <C-^>
-noremap <Leader>o :only<CR>
-noremap <Leader>p :echo expand('%')<CR>
+nnoremap <Leader><Leader> <C-^>
+nnoremap <Leader>o :only<CR>
+nnoremap <Leader>p :echo expand('%')<CR>
 
-noremap <Leader>q :quit<CR>
+nnoremap <Leader>q :quit<CR>
 
 "
-noremap <silent> <Leader>h <Plug>(CommandTHelp)
+nnoremap <silent> <Leader>h <Plug>(CommandTHelp)
 
 "
 if exists('&belloff')
@@ -29,6 +29,8 @@ endif
 
 "
 if has('folding')
+    nnoremap <Tab> za
+
     set foldmethod=syntax
     set foldlevelstart=1
 endif
