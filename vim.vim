@@ -12,6 +12,9 @@ noremap <Leader>p :echo expand('%')<CR>
 noremap <Leader>q :quit<CR>
 
 "
+noremap <silent> <Leader>h <Plug>(CommandTHelp)
+
+"
 if exists('&belloff')
     set belloff=all
 endif
@@ -22,6 +25,12 @@ if has('linebreak')
     let &showbreak='⇥ '
 
     set breakindent
+endif
+
+"
+if has('folding')
+    set foldmethod=syntax
+    set foldlevelstart=1
 endif
 
 set history=700
