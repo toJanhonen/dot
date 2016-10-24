@@ -12,7 +12,7 @@ nnoremap <Leader>p :echo expand('%')<CR>
 nnoremap <Leader>q :quit<CR>
 
 "
-nnoremap <silent> <Leader>h <Plug>(CommandTHelp)
+nnoremap <silent> <Leader>h :CommandTHelp<CR>
 
 "
 if exists('&belloff')
