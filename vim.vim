@@ -100,9 +100,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+map <silent> - :NERDTreeToggle<CR>
+
 "stuff
 set guifont=Hack
 let g:airline_powerline_fonts=1
 let g:airline_skip_empty_sections=1
 
 let g:airline_theme='base16_ocean'
+
+let NERDTreeMinimalUI=1
