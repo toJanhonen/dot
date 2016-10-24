@@ -110,3 +110,4 @@ let g:airline_skip_empty_sections=1
 let g:airline_theme='base16_ocean'
 
 let NERDTreeMinimalUI=1
+let NERDTreeShowHidden=1
