@@ -1,7 +1,7 @@
 #general
-active=colour51
-inactive=colour251
-feature=colour171
+active="#66cccc"
+inactive="#d3d0c8"
+feature="#cc99cc"
 
 #status
 set -g status-interval 5

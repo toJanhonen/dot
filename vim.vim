@@ -71,7 +71,7 @@ syntax enable
 let g:pad#dir='~/.note/'
 
 set background=dark
-colorscheme base16-ocean
+colorscheme base16-eighties
 
 set encoding=utf8
 
@@ -107,7 +107,7 @@ set guifont=Hack
 let g:airline_powerline_fonts=1
 let g:airline_skip_empty_sections=1
 
-let g:airline_theme='base16_ocean'
+let g:airline_theme='base16_eighties'
 
 let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
