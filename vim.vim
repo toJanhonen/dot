@@ -94,6 +94,8 @@ set tabstop=2
 set ai
 set si
 
+set wildignore=node_modules
+
 "map
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -111,3 +113,13 @@ let g:airline_theme='base16_eighties'
 
 let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
+
+let g:airline_section_error=''
+
+let g:ale_sign_error='!'
+let g:ale_sign_warning='?'
+
+let g:ale_echo_msg_error_str='!'
+let g:ale_echo_msg_warning_str='?'
+
+let g:ale_echo_msg_format='[%linter%] %s [%severity%]'
