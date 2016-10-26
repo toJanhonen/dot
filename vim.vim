@@ -69,6 +69,7 @@ syntax enable
 
 "let g:solarized_termtrans=1
 let g:pad#dir='~/.note/'
+let g:pad#set_mappings=0
 
 set background=dark
 colorscheme base16-eighties
