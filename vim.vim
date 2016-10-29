@@ -35,6 +35,9 @@ if has('folding')
     set foldlevelstart=1
 endif
 
+"
+autocmd FileType markdown setlocal spell
+
 set history=700
 
 set autoread
@@ -116,6 +119,7 @@ let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
 
 let g:airline_section_error=''
+let g:airline_section_warning=''
 
 let g:ale_sign_error='!'
 let g:ale_sign_warning='?'
