@@ -98,7 +98,7 @@ set tabstop=2
 set ai
 set si
 
-set wildignore=node_modules
+set wildignore=*/node_modules,*/bin,*/.git
 
 "map
 nnoremap <C-h> <C-w>h
