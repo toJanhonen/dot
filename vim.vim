@@ -3,7 +3,7 @@ scriptencoding utf-8
 call plug#begin('~/.vim/plugged')
 
 "essential
-Plug 'wincent/command-t'
+Plug 'wincent/command-t', { 'do': 'cd ruby/command-t && ruby extconf.rb && make' }
 Plug 'wincent/loupe'
 Plug 'wincent/scalpel'
 
@@ -28,7 +28,7 @@ Plug 'fmoralesc/vim-pad'
 
 "not so neat
 Plug 'scrooloose/nerdtree'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
 
