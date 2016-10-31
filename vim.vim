@@ -1,6 +1,36 @@
 scriptencoding utf-8
 
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+"essential
+Plug 'wincent/command-t'
+Plug 'wincent/loupe'
+Plug 'wincent/scalpel'
+
+Plug 'tpope/vim-projectionist'
+
+"neat
+Plug 'w0rp/ale'
+Plug 'tpope/vim-surround'
+Plug 'mileszs/ack.vim'
+
+Plug 'editorconfig/editorconfig-vim'
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+Plug 'leafgarland/typescript-vim'
+
+Plug 'fmoralesc/vim-pad'
+
+"not so neat
+Plug 'scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
+
+call plug#end()
 
 "leader
 let mapleader = "\<Space>"
