@@ -24,6 +24,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'leafgarland/typescript-vim'
 
+Plug 'rizzatti/dash.vim'
+
 Plug 'fmoralesc/vim-pad'
 
 "not so neat
@@ -72,7 +74,6 @@ set history=700
 
 set autoread
 
-set so=7
 set ruler
 
 set backspace=indent,eol
